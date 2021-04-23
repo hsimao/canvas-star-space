@@ -18,8 +18,6 @@ class StarSpace {
   }
 
   init(time) {
-    console.warn("init");
-
     this.initCanvas();
     this.updateSize();
     this.listenerResize();
